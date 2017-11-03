@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="350px" height="370px" viewBox="0 0 350 370" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 9 Copy 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="280.348861" height="300.463553" rx="4"></rect>
+        <filter x="-17.8%" y="-16.6%" width="139.2%" height="136.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="5" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="17.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-3" font-family="NunitoSans-Bold, Nunito Sans" font-size="16" font-weight="bold">
+            <tspan x="28.2981525" y="16">5.35%</tspan>
+        </text>
+        <filter x="-33.1%" y="-90.9%" width="182.7%" height="327.3%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="5" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-5" points="10.7107623 4 21.4215247 16.5941423 0 16.5941423"></polygon>
+        <filter x="-93.4%" y="-158.8%" width="333.4%" height="497.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="5" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="linearGradient-7">
+            <stop stop-color="#FBC865" offset="0%"></stop>
+            <stop stop-color="#F37A6B" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage--Unsigned-user" transform="translate(-673.000000, -2659.000000)">
+            <g id="Group-9-Copy-3" transform="translate(703.000000, 2689.000000)">
+                <g id="Rectangle-6-Copy-10">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <text id="Your-Performance" font-family="NunitoSans-Bold, Nunito Sans" font-size="14" font-weight="bold" fill="#34495E">
+                    <tspan x="30.8623229" y="25.334728">Your Performance</tspan>
+                </text>
+                <text id="Q" opacity="0.5" font-family="NunitoSans-Bold, Nunito Sans" font-size="12" font-weight="bold" fill="#34495E">
+                    <tspan x="72.8215157" y="168.167364">Q</tspan>
+                </text>
+                <text id="R" opacity="0.5" font-family="NunitoSans-Bold, Nunito Sans" font-size="12" font-weight="bold" fill="#34495E">
+                    <tspan x="106.087848" y="145.497908">R</tspan>
+                </text>
+                <text id="DI" opacity="0.5" font-family="NunitoSans-Bold, Nunito Sans" font-size="12" font-weight="bold" fill="#34495E">
+                    <tspan x="136.810179" y="126.606695">DI</tspan>
+                </text>
+                <text id="DI-Copy" opacity="0.5" font-family="NunitoSans-Bold, Nunito Sans" font-size="12" font-weight="bold" fill="#34495E">
+                    <tspan x="201.074753" y="126.606695">DI</tspan>
+                </text>
+                <text id="E" opacity="0.5" font-family="NunitoSans-Bold, Nunito Sans" font-size="12" font-weight="bold" fill="#34495E">
+                    <tspan x="172.248511" y="146.757322">E</tspan>
+                </text>
+                <text id="X" opacity="0.5" font-family="NunitoSans-Bold, Nunito Sans" font-size="12" font-weight="bold" fill="#34495E">
+                    <tspan x="238.583265" y="91.3430962">X</tspan>
+                </text>
+                <text id="Increase-in-last-15-Copy" font-family="NunitoSans-Bold, Nunito Sans" font-size="14" font-weight="bold" fill="#34495E">
+                    <tspan x="107" y="265">Increase in last 15 days</tspan>
+                </text>
+                <g id="Group-8" transform="translate(20.941704, 249.882845)">
+                    <g id="5.35%" fill="#278CD9">
+                        <use fill-opacity="1" filter="url(#filter-4)" xlink:href="#text-3"></use>
+                        <use fill-rule="evenodd" xlink:href="#text-3"></use>
+                        <use fill-opacity="1" xlink:href="#text-3"></use>
+                    </g>
+                    <g id="Triangle-Copy">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                        <use fill="#278CD9" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    </g>
+                </g>
+                <path d="M43.4730942,48.4874477 L43.4730942,226.078041" id="Line-Copy-41" stroke="#E7E7E7" stroke-linecap="square"></path>
+                <path d="M43.4730942,226.064854 L256.428251,226.064854" id="Line-Copy-43" stroke="#E7E7E7" stroke-linecap="square"></path>
+                <path d="M44.103139,165.612971 L46.6233184,165.612971" id="Line-Copy-47" stroke="#E7E7E7" stroke-linecap="square"></path>
+                <path d="M44.103139,196.468619 L46.6233184,196.468619" id="Line-Copy-47" stroke="#E7E7E7" stroke-linecap="square"></path>
+                <path d="M44.103139,103.901674 L46.6233184,103.901674" id="Line-Copy-49" stroke="#E7E7E7" stroke-linecap="square"></path>
+                <path d="M44.103139,134.757322 L46.6233184,134.757322" id="Line-Copy-51" stroke="#E7E7E7" stroke-linecap="square"></path>
+                <path d="M44.103139,73.0460251 L46.6233184,73.0460251" id="Line-Copy-53" stroke="#E7E7E7" stroke-linecap="square"></path>
+                <path d="M71.8251121,188.908356 C71.8251121,186.128221 74.0874219,183.874477 76.8654709,183.874477 L76.8654709,183.874477 C79.6491841,183.874477 81.9058296,186.138474 81.9058296,188.908356 L81.9058296,225.435146 L71.8251121,225.435146 L71.8251121,188.908356 Z" id="Rectangle-12-Copy-16" fill="url(#linearGradient-7)"></path>
+                <path d="M104.839462,166.245051 C104.839462,163.461519 107.101772,161.205021 109.879821,161.205021 L109.879821,161.205021 C112.663534,161.205021 114.920179,163.453344 114.920179,166.245051 L114.920179,225.435146 L104.839462,225.435146 L104.839462,166.245051 Z" id="Rectangle-12-Copy-17" fill="url(#linearGradient-7)"></path>
+                <path d="M137.853812,146.095731 C137.853812,143.311477 140.116121,141.054393 142.89417,141.054393 L142.89417,141.054393 C145.677884,141.054393 147.934529,143.311375 147.934529,146.095731 L147.934529,225.435146 L137.853812,225.435146 L137.853812,146.095731 Z" id="Rectangle-12-Copy-18" fill="url(#linearGradient-7)"></path>
+                <path d="M203.882511,146.095731 C203.882511,143.311477 206.144821,141.054393 208.92287,141.054393 L208.92287,141.054393 C211.706583,141.054393 213.963229,143.311375 213.963229,146.095731 L213.963229,225.435146 L203.882511,225.435146 L203.882511,146.095731 Z" id="Rectangle-12-Copy-21" fill="url(#linearGradient-7)"></path>
+                <path d="M170.868161,166.245051 C170.868161,163.461519 173.130471,161.205021 175.90852,161.205021 L175.90852,161.205021 C178.692233,161.205021 180.948879,163.453344 180.948879,166.245051 L180.948879,225.435146 L170.868161,225.435146 L170.868161,166.245051 Z" id="Rectangle-12-Copy-19" fill="url(#linearGradient-7)"></path>
+                <path d="M236.896861,110.836319 C236.896861,108.049753 239.159171,105.790795 241.93722,105.790795 L241.93722,105.790795 C244.720933,105.790795 246.977578,108.04769 246.977578,110.836319 L246.977578,225.435146 L236.896861,225.435146 L236.896861,110.836319 Z" id="Rectangle-12-Copy-20" fill="url(#linearGradient-7)"></path>
+                <text id="250-copy" opacity="0.5" font-family="NunitoSans-Regular, Nunito Sans" font-size="10" font-weight="normal" fill="#34495E">
+                    <tspan x="16.2017937" y="74.2301255">250</tspan>
+                </text>
+                <text id="200-copy" opacity="0.5" font-family="NunitoSans-Regular, Nunito Sans" font-size="10" font-weight="normal" fill="#34495E">
+                    <tspan x="17.4618834" y="105.715481">200</tspan>
+                </text>
+                <text id="150-copy" opacity="0.5" font-family="NunitoSans-Regular, Nunito Sans" font-size="10" font-weight="normal" fill="#34495E">
+                    <tspan x="14.941704" y="137.200837">150</tspan>
+                </text>
+                <text id="100-copy" opacity="0.5" font-family="NunitoSans-Regular, Nunito Sans" font-size="10" font-weight="normal" fill="#34495E">
+                    <tspan x="16.2017937" y="167.426778">100</tspan>
+                </text>
+                <text id="50-copy" opacity="0.5" font-family="NunitoSans-Regular, Nunito Sans" font-size="10" font-weight="normal" fill="#34495E">
+                    <tspan x="25.5022422" y="197.65272">50</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,240 @@
+body {
+  font-family: 'Nunito Sans', 'Muli', sans-serif;
+  font-size: 16px;
+  color: $theme-primary;
+  background: #f8f8f8;
+}
+
+h1,h2,h3 {
+  font-weight: 600;
+  margin: 0;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+  font-size: 21px;
+}
+
+p {
+  // font-size: 16px;
+}
+
+a {
+  color: $theme-primary;
+
+  &:hover {
+    color: $theme-primary;
+  }
+}
+
+// Main heading- Header
+.heading-main {
+  font-size: 36px;
+
+  @include mobile {
+    font-size: 32px;
+  }
+}
+
+// Letter-spacing for important elements
+.ls-5 {
+  letter-spacing: .5px;
+}
+
+// Section-wrapper-main
+.section-wrapper-contain {
+  padding: 64px 0;
+}
+
+// Section wrapper
+.section-wrapper {
+  padding: 0 0 80px 0;
+
+  &:last-child {
+    padding: 0;
+  }
+
+  @include mobile {
+    padding: 0 0 56px 0
+  }
+
+}
+
+// Smaller Section-wrapper
+.section-wrapper-xs {
+  padding: 16px;
+}
+
+// Extra small section wrapper
+.section-wrapper-mini {
+  padding: 24px 0;
+}
+
+// Extra small section wrapper container
+.section-wrapper-mini-contain {
+  padding: 32px;
+}
+
+// Main Icon for every section
+.section-icon {
+  height: 35px;
+  width: auto;
+}
+
+// Section having backgorund
+.section-with-background {
+
+  // Main theme gradient
+  &.theme {
+    background: linear-gradient(-90deg, #FBC865, #F37A6B);
+    color: white;
+  }
+}
+
+// White-background
+.white-bg {
+  background: white;
+  border-radius: 5px;
+}
+
+// Reverse the color to white for the sections with different background or gradients
+.color-reverse {
+  color: white;
+}
+
+// Change the default font-size of any section
+.font-enhance-21 {
+  font-size: 24px !important;
+}
+
+// Main box-shadow used mostly in the site
+.shadow-theme {
+  box-shadow: 5px 5px 35px rgba(0, 0, 0, .02);
+}
+
+
+// Main border radius used for maximum elements of the site
+.border-theme {
+  border-radius: 4px;
+}
+
+// Bigger text
+.text-big {
+  font-size: 48px;
+  font-weight: 700;
+
+  @include mobile {
+    font-size: 36px;
+  }
+}
+
+// Subheading for every section
+.section-subheading {
+  font-size: 16px;
+  line-height: 1.75;
+  max-width: 800px;
+
+  @include mobile {
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 90%;
+  }
+}
+
+// Small caption like text for trending questions section
+.section-caption {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+// Exlainer text of features
+.explainer-text {
+  max-width: 300px;
+
+    @include mobile {
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 90%;
+    text-align: center;
+  }
+}
+
+// Exlainer image of features
+.explainer-img {
+  text-align: left;
+
+  @include mobile {
+    text-align: center;
+  }
+
+  img {
+    @include mobile {
+    max-width: 100%;
+    text-align: center;
+  }
+  }
+}
+
+// Section heading
+.section-heading {
+  margin: 0 0 16px 0;
+}
+
+// Background pattern for left sidebar
+.section-bg-pattern {
+  display: block;
+  width: 250px;
+  z-index: -1;
+  margin-left: -16px;
+}
+
+// paragraph with font size 16px
+.p-16 {
+  padding: 16px;
+}
+
+
+// User Data Container
+.user-data {
+  position: absolute;
+  top: 30px;
+}
+
+// User Profile Avatar
+.user-avatar {
+  margin-bottom: 10px;
+}
+
+// User name
+.user-name {
+  color: white;
+  margin-bottom: 5px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+// User ID
+.user-id {
+  font-size: 14px;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+
+.hidden {
+  display: none;
+}
+
+.hidden-xs {
+
+  @include mobile {
+    display: none;
+  }
+}

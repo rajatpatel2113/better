@@ -1,0 +1,49 @@
+
+// Contaier width Override
+.container {
+
+  @include desktop {
+    max-width: 1200px;
+  }
+
+  &.full-width {
+    max-width: 100vw;
+    padding: 0;
+  }
+
+  &.w-1024 {
+    max-width: 1024px;
+  }
+
+	&.w-1300 {
+    width: 100%;
+		max-width: 1300px;
+	}
+
+  &.narrow {
+    max-width: 960px;
+  }
+
+  &.checkbox-fix {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.d-xs-none {
+
+  @include mobile {
+  display: none;
+  }
+}
+
+// Master Page container
+.page-container {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+
+  @include mobile {
+    flex-direction: column;
+  }
+}

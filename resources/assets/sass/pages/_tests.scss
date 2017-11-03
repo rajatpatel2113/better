@@ -1,0 +1,272 @@
+/*
+Tests Page SCSS
+*/
+
+// Menu for selecting exam and other preferences
+.preference-menu {
+  width: 100%;
+  margin-bottom: 16px;
+
+  // Expanded menu view
+  .preference-menu-expanded {
+    // border-top: 1px solid $gray-bg;
+
+    .caption-link {
+      color: $theme-blue;
+      display: inline-block;
+      font-size: 12px;
+    }
+  }
+}
+
+// Section Header
+.preference-header {
+  padding-bottom: 16px;
+  h4 {
+    display: inline;
+  }
+
+  span {
+    font-size: 14px;
+  }
+}
+
+// Preference Container
+.preference-menu {
+
+  // No Shadow on Buttons
+  .btn {
+    box-shadow: none;
+    border: 1px solid $gray-bg;
+  }
+
+  // Button Override for preferences
+  .btn-wide {
+    padding: 1em 1.30em;
+    font-size: 24px;
+    text-transform: capitalize;
+    margin-right: .5em;
+
+    &.active {
+      background: $theme-blue;
+      color: white;
+    }
+  }
+}
+
+// Sample Test List
+.sample-test-list, .mock-test-list {
+
+  // Test list Container
+  .test-list-container {
+
+    // Each test link
+    .test {
+      width: 30.8%;
+      margin: 0 16px 16px 0;
+    }
+  }
+}
+
+// Sample Test List
+.mock-test-list {
+
+}
+
+// Getting stated dialog box
+.getting-started-dialog {
+
+}
+
+// Left Sidebar
+.left-sidebar {
+  top: 83px;
+  width: 22%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  margin-right: 16px;
+
+  // Side bar header with graphic and profile image, data
+  .sidebar-header {
+    display: block;
+  }
+
+  // Selection-options
+  .selected-preferences {
+    border-top: 1px solid $gray-bg;
+    padding: 16px 0 0 0;
+
+    .selection-wrapper {
+      padding-right: 16px;
+
+      .selection {
+        padding: .35em 1em;
+        border-radius: 40px;
+        position: relative;
+        margin-bottom: 12px;;
+
+        p {
+          margin: 0;
+          font-size: 14px;
+        }
+
+        .close-btn {
+          position: absolute;
+          right: 16px;
+          top: calc(50% - 12px);
+          color: $theme-gray;
+          cursor: pointer;
+
+          &:hover {
+            color: $theme-primary;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Main-content container
+.main-content {
+  margin-top: 83px;
+  width: 66%;
+  display: flex;
+  flex-direction: column;
+
+  @include mobile {
+    width: 100%;
+    margin-top: 0px;
+  }
+}
+
+// Getting started section
+.getting-started-dialog {
+  position: relative;
+}
+
+// Preference Menu
+.preference-menu {
+  position: relative;
+}
+
+.close-icon, .toggle-icon {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  color: $gray-light;
+}
+
+
+// Right Sidebar
+.right-sidebar {
+  position: relative;
+  width: 22%;
+  height: 100%;
+  top: 82px;
+  padding-left: 16px;
+
+  // Leader board section
+  .leaderboard {
+    margin-bottom: 16px;
+
+    // Wrapper for every leader's data
+    .leader {
+      padding-bottom: 16px;
+    }
+
+    // Leaders data
+    .leader-data {
+      padding-left: 8px;
+
+      // Name
+      .leader-name {
+        font-size: 14px;
+        font-weight: bold;
+        margin: 0;
+      }
+
+      // Points
+      .leader-points {
+        font-size: 12px;
+        font-weight: normal;
+        color: $theme-gray;
+        margin: 0;
+      }
+    }
+  }
+}
+
+// Test page
+.sample-test {
+
+  .test-header {
+
+  }
+
+  // Question counter panel
+  .question-count {
+    overflow: scroll;
+
+    .qus-list {
+      overflow: scroll;
+      padding-left: 0;
+      margin-bottom: 0;
+
+      li {
+        float: left;
+      }
+    }
+
+    // Question number
+    .qus-number {
+      width: 40px;
+      height: 40px;
+      border: 1px solid $gray-light;
+      border-radius: 100%;
+      color: $theme-gray;
+      text-align: center;
+      font-size: 18px;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 8px;
+      cursor: pointer;
+
+      &:hover {
+        color: $theme-primary;
+        border: 1px solid $theme-primary;
+      }
+
+      // Active question- question on the screen
+      &.active {
+        background: $theme-blue;
+        border: 1px solid $theme-blue;
+        color: white;
+
+          &:hover {
+          color: $theme-blue;
+          background: white;
+          border: 1px solid $theme-blue;
+        }
+      }
+
+      // Skipped question
+      &.skipped {
+        background: $material-red-light;
+        border: 1px solid $material-red-bg;
+        color: white;
+
+          &:hover {
+          color: white;
+          background: $material-red;
+          border: 1px solid $material-red;
+        }
+      }
+    }
+  }
+}

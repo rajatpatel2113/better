@@ -1,0 +1,40 @@
+#hero-header {
+  background: linear-gradient(-90deg, #FBC865, #F37A6B);
+  color: white;
+}
+
+// Logo container
+.navbar-brand {
+  font-size: 24px;
+  font-weight: 700;
+  color: $theme-primary;
+
+  img {
+    margin-right: 10px;
+  }
+
+  &:hover,&:focus, &:active {
+    text-decoration: none;
+    color: $theme-primary;
+  }
+}
+
+// Navigation container 
+.navigation-wrapper {
+  width: 100%;
+}
+
+// Wrapper for the Exam names CTA'
+.cta-wrapper {
+  .btn-wide {
+    margin-right: 1em;
+
+    &:last-child {
+      margin-right: 0
+    }
+
+    @include mobile {
+      margin-right: .5em;
+    }
+  }
+}

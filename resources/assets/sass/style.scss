@@ -1,0 +1,48 @@
+// ######################################## //
+// ## STYLE.SCSS ## //
+// ######################################## //
+
+// Base
+@import "base/colors";
+@import "base/reset";
+@import "base/typography";
+
+// Helpers
+@import "helpers/mixins";
+@import "helpers/functions";
+@import "helpers/placeholders";
+@import "helpers/extras";
+@import "helpers/variables";
+@import "helpers/animations";
+
+// Components
+@import "components/alerts";
+@import "components/labels";
+@import "components/panels";
+@import "components/buttons";
+@import "components/forms";
+@import "components/modals";
+@import "components/dropdown";
+
+
+// Layout
+@import "layout/body";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/grid";
+@import "layout/navigation";
+@import "layout/sidebar";
+
+
+// Pages
+@import "pages/about";
+@import "pages/home";
+@import "pages/profile";
+@import "pages/questions";
+@import "pages/tests";
+
+// themes
+@import "themes/admin";
+@import "themes/theme";
+
+// Vendor- later if needed

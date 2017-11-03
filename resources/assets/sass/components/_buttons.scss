@@ -1,0 +1,121 @@
+/* Buttons.scss
+   ========================================================================== */
+
+.btn {
+  display: inline-block;
+  font-weight: 500;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: none;
+  padding: 1em 2.5em;
+  cursor: pointer;
+  background-color: white;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, .02);
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+}
+
+// Main button - here blue
+.btn-primary {
+  background-color: $theme-secondary;
+  color: white;
+  line-height: 1;
+}
+
+// Large buttons- used for header CTA
+.btn-large {
+  padding: 1em 2.75em;
+  font-size: 18px;
+}
+
+// Wide buttons used on the header for exam names
+.btn-wide {
+  padding: 1.25em 0;
+  font-size: 24px;
+  width: 130px;
+  text-align: center;
+  text-transform: capitalize;
+
+  @include mobile {
+    padding: 0.6em 0;
+    width: 100px;
+    margin-bottom: .75em;
+  }
+}
+
+// Tests list page buttons
+.btn-test {
+  padding: 1em 2.25em;
+  background: white;
+  font-size: 18px;
+  opacity: 1;
+
+  // On Hover
+  &:hover {
+    opacity: .8;
+  }
+}
+
+// Secondary buttons with gray background
+.btn-secondary {
+  border: 1px solid $gray-light;
+  color: darken($gray-light, 8%);
+  padding: .5em 1em;
+  font-weight: 400;
+  box-shadow: none;
+  background: transparent;
+
+  &:hover {
+    color: darken($gray-light, 8%);
+    background: transparent;
+    border: 1px solid $gray-light;
+  }
+}
+
+// Large gray button
+.btn-secondary-large {
+  padding: .75em 3em;
+  background-color: darken($gray-light, 8%);
+  font-weight: 500;
+  color: white;
+
+  &:hover {
+    background: $theme-blue;
+    color: white;
+  }
+}
+
+
+/*
+ Social log in buttons
+*/
+
+// Facebook-login
+.btn-facebook {
+  background-color: $color-facebook;
+  color: white;
+
+  // On hover
+  &:hover {
+    background-color: $color-facebook;
+    color: white;
+    opacity: .8;
+  }
+}
+
+// Gmail-login
+.btn-gmail {
+  background-color: $color-gplus;
+  color: white;
+
+  // On hover
+  &:hover {
+    background-color: $color-gplus;
+    color: white;
+    opacity: .8;
+  }
+}

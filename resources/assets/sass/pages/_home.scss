@@ -1,0 +1,120 @@
+// Banner under features section
+.section-banner {
+  width: 100%;
+  max-width: 1200px;
+
+  @include mobile {
+    max-width: 90%;
+  }
+}
+
+// Some data bout the platform
+.platform-data {
+  p {
+    font-size: 21px;
+
+    @include mobile {
+      font-size: 18px;
+    }
+  }
+}
+
+// Testimonial Container
+.testimonial {
+  background: white;
+  border-radius: 50px;
+  z-index: 1;
+  transition: all linear .3s;
+  padding: 48px 32px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include mobile {
+    padding: 24px 32px;
+    border-radius: 25px;
+  }
+
+  // Testimonial in the center
+  &.featured {
+    z-index: 100000;
+    transition: all linear .3s;
+  }
+
+  // On hover
+  &:hover {
+    transform: scale(1);
+  }
+}
+
+// Thumbnail for testimonial
+.testimonial-thumbnail {
+  width: 50px;
+  height: 50px;
+}
+
+.testimonial-text {
+  margin: 0;
+}
+
+// Every question in FAQ
+.faq-item {
+  border-radius: 5px;
+  transition: all linear .3s;
+
+  // On Hover
+  // &:hover {
+  //   transition: all linear .3s;
+  //
+  //   // FAQ ans
+  //   .faq-body {
+  //     display: block;
+  //     transition: all linear .3s;
+  //   }
+  // }
+
+  // FAQ Answer
+  .faq-body {
+    display: none;
+
+    &.active {
+      display: block;
+    }
+  }
+
+   // FAQ Question
+  .faq-header {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+
+    .expand-icon {
+      position: absolute;
+      padding: 16px;
+      color: $gray-bg;
+      top: calc(50% - 30px);
+      right: 0px;
+      cursor: pointer;
+
+      &:hover {
+        color: $gray-light;
+      }
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+}
+
+// Footer Navigation
+.footer-nav-container {
+  text-align: right;
+
+  @include mobile {
+    text-align: center;
+  }
+}

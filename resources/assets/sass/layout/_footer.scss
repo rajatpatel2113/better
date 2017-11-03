@@ -1,0 +1,59 @@
+/*
+Footer SCSS
+*/
+
+// Navigation links on footer
+.footer-navigation {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+
+  @include mobile {
+    justify-content: center;
+  }
+}
+
+// List items in the navigation
+.footer-navigation-item {
+  padding-left: 20px;
+
+  &:first-child {
+    @include mobile {
+      padding-left: 0;
+    }
+  }
+  
+}
+
+// Main class of footer section
+.page-footer {
+  font-size: 14px;
+  color: lighten($gray-dark, 25%);
+
+  // Logo in the footer-nav
+  .navbar-brand {
+    margin-right: 0;
+  }
+}
+
+.footer-signature {
+  font-size: 14px;
+  color: $gray-light;
+  background: $white;
+
+  p {
+    margin: 0;
+  }
+}
+
+.footer-nav-container {
+
+  .navbar-brand {
+    justify-content: flex-end;
+
+    @include mobile {
+      justify-content: center;
+    }
+  }
+}

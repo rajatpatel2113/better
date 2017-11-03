@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="333px" height="186px" viewBox="0 0 333 186" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 9</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage--Unsigned-user" transform="translate(-679.000000, -3236.000000)">
+            <g id="Group-9" transform="translate(679.000000, 3232.000000)">
+                <rect id="Rectangle-Copy-14" fill="#DC3545" x="0" y="176" width="12" height="12" rx="6"></rect>
+                <rect id="Rectangle-Copy-15" fill="#2CCB70" x="0" y="144" width="12" height="12" rx="6"></rect>
+                <text id="Unsuccessfull-Attemp" font-family="NunitoSans-Bold, Nunito Sans" font-size="16" font-weight="bold" fill="#B5BBC0">
+                    <tspan x="20" y="187">Unsuccessfull Attempts</tspan>
+                </text>
+                <text id="Succesfull-Attempts-Copy" font-family="NunitoSans-Bold, Nunito Sans" font-size="16" font-weight="bold" fill="#B5BBC0">
+                    <tspan x="21" y="155">Succesfull Attempts</tspan>
+                </text>
+                <text id="No.-of-people-Attemp" font-family="NunitoSans-Bold, Nunito Sans" font-size="16" font-weight="bold" fill="#B5BBC0">
+                    <tspan x="6.37735849" y="16">No. of people Attempting</tspan>
+                </text>
+                <text id="0" transform="translate(7.440252, 80.600000) scale(-1, 1) translate(-7.440252, -80.600000) " font-family="NunitoSans-Regular, Nunito Sans" font-size="16" font-weight="normal" fill="#B5BBC0">
+                    <tspan x="0" y="85.6">0</tspan>
+                </text>
+                <path d="M8.50314465,109.614286 C8.50314465,106.087553 11.3548116,103.228571 14.8814523,103.228571 L310.045088,103.228571 C313.56773,103.228571 316.423396,106.094729 316.423396,109.614286 L316.423396,109.614286 C316.423396,113.141018 313.571729,116 310.045088,116 L14.8814523,116 C11.3588102,116 8.50314465,113.133842 8.50314465,109.614286 L8.50314465,109.614286 Z" id="Rectangle-Copy-3" fill="#E4E4E4" opacity="0.329030797"></path>
+                <path d="M8.50314465,109.614286 C8.50314465,106.087553 11.3707025,103.228571 14.8972559,103.228571 L238.594639,103.228571 L238.594639,116 L14.8972559,116 C11.3658858,116 8.50314465,113.133842 8.50314465,109.614286 L8.50314465,109.614286 Z" id="Rectangle-Copy-3" fill="#DC3545"></path>
+                <path d="M8.50314465,109.614286 C8.50314465,106.087553 11.3572127,103.228571 14.8793309,103.228571 L139.325174,103.228571 L139.325174,116 L14.8793309,116 C11.3578605,116 8.50314465,113.133842 8.50314465,109.614286 L8.50314465,109.614286 Z" id="Rectangle-Copy-3" fill="#2CCB70"></path>
+                <g id="Group-5" opacity="0.300000012" transform="translate(8.503145, 50.700000)" stroke="#34495E" stroke-linecap="square">
+                    <path d="M1.16237702,11.7071429 L304.887733,11.7071429" id="Line-Copy-4"></path>
+                    <path d="M0.986923882,11.7071429 L0.986923882,1.06428571" id="Line-Copy-5"></path>
+                    <path d="M241.796351,11.7071429 L241.796351,1.06428571" id="Line-Copy-9"></path>
+                    <path d="M180.60707,11.7071429 L180.60707,1.06428571" id="Line-Copy-10"></path>
+                    <path d="M123.365485,11.7071429 L123.365485,1.06428571" id="Line-Copy-11"></path>
+                    <path d="M64.1500523,11.7071429 L64.1500523,1.06428571" id="Line-Copy-12"></path>
+                    <path d="M305.933327,11.7071429 L305.933327,1.06428571" id="Line-Copy-13"></path>
+                </g>
+                <text id="2500" font-family="NunitoSans-Regular, Nunito Sans" font-size="16" font-weight="normal" fill="#B5BBC0">
+                    <tspan x="295.484277" y="85.6">2500</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
